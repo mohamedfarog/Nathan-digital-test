@@ -3,7 +3,7 @@
     <div class="row mb-4">
       <div class="col-lg-12 position-relative z-index-2">
         <div class="row  p-2">
-          <div class="card card1 col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 col mb-3 " style="width: 23rem; margin-left: 20px; border-radius: 25px; background-color: #59BCFF;">
+          <div class="card card1 col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3 "  style=" border-radius: 25px; background-color: #59BCFF;">
             <div class="card-body mt-4 mb-2"  >
               <div class="d-inline-block float-left">
                 <h2 class="mb-0"  >{{c1bnumber}}</h2>
@@ -16,7 +16,7 @@
               </span>
             </div>
           </div> 
-          <div class="card card2 col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3" style="width: 23rem; margin-left: 20px;  border-radius: 25px; background-color: #57F998" >
+          <div class="card card2 col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3" style=" border-radius: 25px; background-color: #57F998" >
             <div class="card-body  mt-4">
               <div class="d-inline-block float-left">
                 <h2 class="mb-0"  >{{c2bnumber}}</h2>
@@ -29,7 +29,7 @@
               </span>
             </div>
           </div>
-          <div class="card col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3" style="width: 23rem; margin-left: 20px; border-radius: 25px; background-color: #FDB765;" >
+          <div class="card col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3" style="border-radius: 25px; background-color: #FDB765;" >
             <div class="card-body  mt-4">
               <div class="d-inline-block float-left">
                 <h2 class="mb-0"  >{{c3bnumber}}</h2>
@@ -42,7 +42,7 @@
               </span>
             </div>
           </div>
-          <div class="card col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3" style="width: 23rem; margin-left: 20px; border-radius: 25px; background-color: #FF6D59;" >
+          <div class="card col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4 mb-3" style=" border-radius: 25px; background-color: #FF6D59;" >
             <div class="card-body  mt-4">
               <div class="d-inline-block float-left">
                 <h2 class="mb-0"  >{{c4bnumber}}</h2>
@@ -55,9 +55,9 @@
               </span>
             </div>
           </div>
-          <div class="card col-lg-3" style="width: 23rem; margin-left: 20px; text-align: center; background-color: white;">
+          <div class="card col-lg-3" style="text-align: center;">
             <div class="card-body mt-4 mb-2">
-              <div class="d-inline-block float-center">
+              <div class="d-inline-block float-center ">
                 <span class="">
                 <img src="../assets/img/adiobar.png" style="width:100px;height:75px" />
               </span>
@@ -66,21 +66,22 @@
               </div>
            </div>
           </div> 
-          <div class="col-lg-3" style="text-align: center;" >
+          <div class="col-lg-3" style="" >
             <h5 style="font-family: Arial;">Reservation Statistic</h5>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
-          <div class="col-lg-3" style="text-align: center;" >
+          <div class="col-lg-3"  >
             <h5 style="font-family: Arial;"><span style="font-weight: bold;" >549</span> Check In</h5>
           </div>
-          <div class="col-lg-3" style="text-align: center;" >
+          <div class="col-lg-3" >
             <h5 style="font-family: Arial;"><span style="font-weight: bold;">327</span> Check Out</h5>
           </div>
-          <div class="card col-lg-3" style="width: 23rem; margin-left: 20px; margin-top: 20px; height: 80%; text-align: left; background-color: white;">
-            <div class="card-body mt-4 mb-2">
+          <div class="card col-lg-3" style="background-color: white; height:220px;">
+          
+            <div class="card-body">  
               <p class="">Booked Room Today</p>
-              <div class="progress" style="background-color: white;">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" color="white" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress" style="background-color:" >
+                <div class="progress-bar bg-warning" role="progressbar"  color="white" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="progress" style="background-color: white;">
                 <div class="progress-bar bg-success " role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -88,93 +89,82 @@
                 <div class="progress" style="background-color: white;">
                 <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-               <svg xmlns="http://www.w3.org/2000/svg" style="color:#F6943A" width="80" height="80" fill="currentColor" class="bi bi-dot" viewBox="6.5 6 20 15">
+               <svg xmlns="http://www.w3.org/2000/svg" style="color:#F6943A" width="80" height="80" fill="currentColor" class="bi bi-dot" viewBox="3 3 16 16">
                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-               <text color="black" x="10" y="9" font-size="2">Padding</text>
-               <text color="black" x="9" y="18" font-size="5">234</text> 
+               <text color="black" x="9" y="10" font-size="2">Padding</text>
+               <text color="black" x="0" y="0" font-size="5">234</text> 
               </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" style="color:#42AE94" width="80" height="80" fill="currentColor" class="bi bi-dot" viewBox="0 6 20 15">
+               <svg xmlns="http://www.w3.org/2000/svg" style="color:#42AE94" width="80" height="80" fill="currentColor" class="bi bi-dot" viewBox="3 3 16 16">
                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-               <text color="black" x="10" y="9" font-size="2">Done</text> 
-               <text color="black" x="7" y="18" font-size="5">65</text> 
+               <text color="black" x="9" y="10" font-size="2">Done</text>
+               <text color="black" x="0" y="0" font-size="5">65</text> 
               </svg>
-           
-               <svg xmlns="http://www.w3.org/2000/svg" style="color:#9658C7" width="80" height="80" fill="currentColor" class="bi bi-dot" viewBox="0 4.5 16 16">
+               <svg xmlns="http://www.w3.org/2000/svg" style="color:#9658C7" width="80" height="80" fill="currentColor" class="bi bi-dot" viewBox="6 6 15 15">
                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-               <text color="black" x="10" y="9" font-size="2">Finish</text>
-               <text color="black" x="8" y="16" font-size="4">763</text> 
+               <text color="black" x="9" y="10" font-size="2">Finish</text>
+               <text color="black" x="0" y="0" font-size="4">763</text> 
               </svg>    
            </div>
-           
           </div> 
           <div class="col-lg-9" style="margin-top: -10%;" >
           <apexchart
-          height="487"
+          height=350
           type="area"
           :color="color"
          :options="chartOptions"
          :series="series"
         ></apexchart>
         </div> 
-
-        <div  class="col-lg-6">
+        <div class="col-lg-6">
           <FullCalendar :options='calendarOptions' style="width: 100%;" />
         </div>
         <div class="card col-lg-6" style=" text-align: center; height: 30%; background-color: white;">
             <div class="card-body mt-4 mb-3">
               <div class="d-inline-block float-center">
-                <img src="../assets/img/check1.png" style="width:250px;height:150px" />
+                <img src="../assets/img/check1.png" style="width:200px;height:120px" />
               </div>
               <div class="d-inline-block float-center">
-              <img src="../assets/img/check2.png" style="width:260px;height:160px" />
+              <img src="../assets/img/check2.png" style="width:200px;height:120px" />
               </div>
            </div>
           </div>
-          <h5 style="padding: 20px;">Newest Booking</h5>
-  <div class="row row-cols-2 g-3 col-lg-6">
-  <div class="col" >
-    <div class="card">
-      <img src="../assets/img/ssss.png" style="width:150px;height:80px" />
+          <h5>Newest Booking</h5>
+          <div class="row row-cols-2 g-3 col-lg-6">
+            <div class="card" >
+  
+      <img src="../assets/img/ssss.png"/>
     </div>
+  
+  <div class="card">
+   
+      <img src="../assets/img/louis.png"/>
+
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="../assets/img/louis.png" style="width:150px;height:80px" />
-    </div>
+  <div class="card">
+   
+      <img src="../assets/img/richard.png"/>
+  
   </div>
-  <div class="col">
+
     <div class="card">
-      <img src="../assets/img/richard.png" style="width:150px;height:80px" />
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../assets/img/bella.png" style="width:150px;height:80px" />
-    </div>
+      <img src="../assets/img/bella.png"/>
   </div>
 </div>
-<div class="col-lg-6" style="margin-top: -25%;">
-    <div class="card">
-  <div class="card-body">
-    <img src="../assets/img/ali.png" style="width:300px;height:80px" />
-    <p class="card-text">I have been there many times.Rooms ,Food and Service are excellent.we did lots of Excursions and all the places are from the Hotel reachable. we visited Long Waterfall and was very helpful and excellent.</p>
-  </div>
-</div>
-<div class="card">
-  <div class="card-body">
-    <img src="../assets/img/kena.png" style="width:300px;height:80px" />
+
+<div class="col-lg-6 col-md-6 col-sm-6" style="background-color: white; margin-top: -22%;">
+    <img src="../assets/img/ali.png" />
+    <p class="card-text">I have been there many times.Rooms ,Food and
+      Service are excellent.we did lots of Excursions and all the places are from the Hotel reachable. we visited Long Waterfall and was very helpful and excellent.</p>
+    <img src="../assets/img/kena.png"/>
   <p class="card-text">423px
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p>
-  </div>
-</div>
-<div class="card">
-  <div class="card-body">
-    <img src="../assets/img/china.png" style="width:300px;height:80px" />
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-  </div>
-</div>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p>
+    <img src="../assets/img/china.png"/>
+    <p class="card-text">Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 </div>
     </div>
+
         </div>
       </div>
     </div>
@@ -203,7 +193,7 @@ export default {
       },
       c1description: 'New booking',
       c1bnumber: '872',
-      c2description: 'Schedule Room',
+      c2description: 'Schedule',
       c2bnumber: '285',
       c3description: 'Check In',
       c3bnumber: '53',
